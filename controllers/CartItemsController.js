@@ -1,5 +1,5 @@
 const CartItem = require('../models/CartItem');
-const Product = require('../models/Product'); // Necesario para obtener datos de productos, si es requerido.
+const Product = require('../models/Product');
 
 exports.getAllCartItems = async (req, res) => {
   try {
