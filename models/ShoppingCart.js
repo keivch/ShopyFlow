@@ -27,6 +27,10 @@ const ShoppingCart = sequelize.define('ShoppingCart', {
         type: DataTypes.STRING,
         allowNull:false
     },
+    department_client: {
+        type: DataTypes.STRING,
+        allowNull:false
+    },
     total_quantity: {
         type: DataTypes.INTEGER,
         allowNull:false
