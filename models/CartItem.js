@@ -38,3 +38,5 @@ const CartItem = sequelize.define('CartItem', {
 module.exports = CartItem
 ShoppingCart.hasMany(CartItem, { foreignKey: 'ShoppingCart_id' });
 CartItem.belongsTo(ShoppingCart, { foreignKey: 'ShoppingCart_id' });
+Product.hasMany(CartItem, { foreignKey: 'Product_id' });
+CartItem.belongsTo(Product, { foreignKey: 'Product_id' });
