@@ -5,6 +5,7 @@ const Order = require('../models/Order');
 const OrderItem = require('../models/OrderItem');
 const ShoppingCart = require('../models/ShoppingCart');
 const CartItem = require('../models/CartItem');
+const Admin = require('../models/Admin');
 
 const syncDatabase = async () => {
     try {
